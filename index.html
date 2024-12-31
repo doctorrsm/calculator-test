@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+<div class="theme-switcher">
+    <button type="button"
+            class="theme-switcher__button"
+            id="theme-toggle">Сменить тему</button>
+    <button type="button"
+            class="theme-switcher__button"
+            id="form-toggle">Сменить форму</button>
+</div>
+
+<div class="calculator">
+    <div class="calculator__display">
+        <div class="calculator__history"></div>
+        <div class="calculator__output" id="output">0</div>
+    </div>
+
+    <div class="calculator__buttons">
+        <button type="button" class="calculator__btn calculator__btn_type_operator">AC</button>
+        <button type="button" class="calculator__btn calculator__btn_type_operator">DEL</button>
+        <button type="button" class="calculator__btn calculator__btn_type_operator">%</button>
+        <button type="button" class="calculator__btn calculator__btn_type_operator">/</button>
+
+        <button type="button" class="calculator__btn calculator__btn_type_number">7</button>
+        <button type="button" class="calculator__btn calculator__btn_type_number">8</button>
+        <button type="button" class="calculator__btn calculator__btn_type_number">9</button>
+        <button type="button" class="calculator__btn calculator__btn_type_operator">*</button>
+
+        <button type="button" class="calculator__btn calculator__btn_type_number">4</button>
+        <button type="button" class="calculator__btn calculator__btn_type_number">5</button>
+        <button type="button" class="calculator__btn calculator__btn_type_number">6</button>
+        <button type="button" class="calculator__btn calculator__btn_type_operator">-</button>
+
+        <button type="button" class="calculator__btn calculator__btn_type_number">1</button>
+        <button type="button" class="calculator__btn calculator__btn_type_number">2</button>
+        <button type="button" class="calculator__btn calculator__btn_type_number">3</button>
+        <button type="button" class="calculator__btn calculator__btn_type_operator">+</button>
+
+        <button type="button" class="calculator__btn calculator__btn_type_number calculator__btn_size_double">0</button>
+        <button type="button" class="calculator__btn calculator__btn_type_number">.</button>
+        <button type="button" class="calculator__btn calculator__btn_type_operator">=</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
